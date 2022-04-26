@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
     }
-    private void OnCollisionExit(Collision collision)
+    private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.tag == "Ramp")
         {
